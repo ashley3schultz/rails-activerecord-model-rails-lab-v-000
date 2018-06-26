@@ -7,10 +7,3 @@ RSpec.describe Student, type: :model do
     expect(student).to be_valid
   end
 end
-
-describe Student do
-  it 'can be created' do
-    student = Student.create!(first_name: "Daenerys", last_name: "Targaryen")
-    expect(student).to be_valid
-  end
-end
